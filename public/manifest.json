@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Mixin Light Wallet",
+  "description": "Mixin Chrome Extension Wallet",
+  "version": "0.2.0",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Mixin Light Wallet"
+  },
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "background": {
+    "page": "integration/background/index.html",
+    "persistent": true
+  },
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "clipboardWrite",
+    "background",
+    "downloads"
+  ]
+}
