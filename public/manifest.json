@@ -3,7 +3,7 @@
 
   "name": "Mixin Light Wallet",
   "description": "Mixin Chrome Extension Wallet",
-  "version": "0.2.0",
+  "version": "0.3.0",
 
   "browser_action": {
     "default_popup": "index.html",

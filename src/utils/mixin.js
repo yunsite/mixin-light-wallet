@@ -249,8 +249,8 @@ export const withdraw = async (asset, userData, withdrawData) => {
       params['public_key'] = withdrawData.withdrawTo;
     } else if (data.account_name && data.account_tag) {
       // EOS
-      params['account_name'] = data.account_name;
-      params['account_tag'] = data.account_tag;
+      params['account_name'] = withdrawData.withdrawTo;
+      params['account_tag'] = withdrawData.withdrawMemo;
     } else {
       reject('Token not supported!');
       return;

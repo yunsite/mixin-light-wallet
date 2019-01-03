@@ -26,7 +26,7 @@ class Dashboard extends React.Component {
   };
 
   loadActiveAccountDetails = async () => {
-    const { showSnackbar } = this.props;
+    const { showSnackbar, reloadAccount  } = this.props;
     showSnackbar('Reloading account details...');
     reloadAccount();
   };
