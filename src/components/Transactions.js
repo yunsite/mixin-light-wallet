@@ -138,7 +138,7 @@ class Transactions extends React.Component {
                     scope="row"
                   >
                     <Grid container justify="flex-start" alignItems="center">
-                      {moment(transaction.timestamp).format(
+                      {moment(transaction.created_at).format(
                         'MMM Do, h:mm:ss a'
                       )}
                       <br />
