@@ -92,6 +92,7 @@ class ReceiveToken extends React.Component {
                 </CopyToClipboard>
               </div>
             </div>
+            <p className="go-to-doc">Transfer from Mixin Messenger is free, please see <a target="_blank" href="https://github.com/MixinLight/mixin-light-wallet/blob/master/Mixin-Messenger-Mixin-Light.md#transfer-assets-from-mixin-messenger-to-mixin-light-wallet">Transfer assets from Mixin Messenger to Mixin Light Wallet</a></p>
           </Card>
         </div>
       </Dialog>

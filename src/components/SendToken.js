@@ -282,6 +282,7 @@ class SendToken extends React.Component {
             >
               Transfer <Send className="send-button-icon" />
             </Button>
+            <p className="go-to-doc">Transfer to Mixin Messenger is free, please see <a target="_blank" href="https://github.com/MixinLight/mixin-light-wallet/blob/master/Mixin-Messenger-Mixin-Light.md#transfer-assets-from-mixin-light-wallet-to-mixin-messenger">Transfer assets from Mixin Light Wallet to Mixin Messenger</a></p>
             {this.renderSending()}
           </Card>
         </div>
